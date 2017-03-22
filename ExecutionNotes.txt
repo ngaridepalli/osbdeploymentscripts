@@ -1,0 +1,11 @@
+1)Modify deploy.cmd as needed this sets environment variables and execute it
+2)build.properties : modify this to specify which project needs to be imported from OSB and location of jar and custmization file
+modify to specify which project and jar to be deployed into OSB along with locations of jar and customization file.
+3)keep import.py,export.py,build.xml in this location and 
+
+run
+ant exportFromWorkspace ( do this on a copy of your OEPE workspace )
+ant importToOSB
+ant exportFromOSB
+
+ 
